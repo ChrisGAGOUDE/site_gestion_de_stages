@@ -1,0 +1,73 @@
+h2
+{
+	font-style: italic; 
+	font-family: 'LearningCurveProRegular', Arial, serif;	
+	text-align: center;
+	color:white;
+	background-image:url("images/upec.jpeg");	
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding-top:4%;			/*Marge interrieur d'en haut limitée à 4%*/
+	padding-bottom: 4%;		/*Marge interrieur d'en bas limitée à 4%*/
+	background-color:teal;
+}
+
+
+#page
+{
+	background-color: olive; /* Le fond de la page est en vert d'olive */
+	color: black;	 /* Le texte de la page est en noir */
+}
+
+a 
+{
+   text-decoration: none;
+   color: #AAA;			/* les liens de la page sont écris en gris*/
+   font-style: italic;
+}
+
+a:hover				/* Lorsqu'on clique sur les liens */
+{
+	background-color:black;			/* Le fond est momentanément en noir */
+}	
+#horizontal
+{
+	margin: auto; 
+	border: 1px;
+	text-align: justify;
+	padding: 12px;
+	margin-bottom: 12px;
+	color:white;
+}
+.imageflottante				
+{
+	float:left;		/* On écrit du texte à gauche de l'image qu'on appelle image flottante */
+}
+
+#body
+{
+	padding-top:2%;
+	padding-bottom: 2%;	
+}
+
+#foot
+{
+	width: 100%;
+	margin: auto;
+   	height: auto;
+	color: black;
+	font-size:12px;
+	padding-bottom: 35%;
+}
+
+.formulaire
+{
+	text-align:justify;
+}
+
+.ameliorer
+{
+	width:30%;
+	height:auto;
+}
+	
